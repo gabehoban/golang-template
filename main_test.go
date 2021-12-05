@@ -1,13 +1,13 @@
 package main
 
 import (
-    "testing"
+	"testing"
 
-    "github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_greet(t *testing.T) {
-    got := greet()
+	got := greet()
 
-    assert.Equal(t, "Hi!", got, "should properly greet")
+	assert.Equal(t, "Hi!", got, "should properly greet")
 }
